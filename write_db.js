@@ -1,7 +1,7 @@
 (async () => {
     const { writeUser } = require('./dbFunctions');
     await writeUser({
-      userId: 'demo‑123',
+      userId: 'samsontz',
       username: 'James',
       badges: ['Starter']
     });
